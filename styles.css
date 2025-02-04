@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+    color: wheat;
+}
+
+@media screen and (max-width:500px){
+    /*Any screen resolution from 401-500px wide*/
+    body {
+        background-color: cadetblue;
+        color: darkblue;
+    }
+}
+
+@media screen and (max-width:400px){
+	/*Any screen resolution from
+	0-400px wide*/
+	body{
+		background-color:yellow;
+		color:black;
+	}
+}
